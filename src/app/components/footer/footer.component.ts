@@ -7,6 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class FooterComponent implements OnInit {
 
+  copyright = 'Faunus Bookbind Store©. All right reserved';
   constructor() { }
 
   ngOnInit(): void {

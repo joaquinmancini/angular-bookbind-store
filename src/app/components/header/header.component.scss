@@ -1,0 +1,13 @@
+
+.navbar-brand-logo {
+    width: 32px;
+    margin: 5px;
+}
+
+.navbar-brand {
+    transition: all .5s ease;
+}
+
+.navbar-brand:hover {
+    transform: scale(1.12);
+}

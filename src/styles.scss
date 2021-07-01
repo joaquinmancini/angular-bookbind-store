@@ -1,1 +1,69 @@
 /* You can add global styles to this file, and also import other style files */
+:root {
+    --transparent: #ffffff00;
+    --white: #ffffff;
+    --lightgrey: #d3d3d3;
+    --grey: #8d8d8d;
+    --black: #000000;
+    --primary: #F05642;
+    --secondary: #095769;
+    --warning: #AA1C0A;
+    --success: #CBF48C;
+    /*Transparencies*/
+    --primary-transparent: rgba(240, 86, 66, 0.7);
+    --secondary-transparent: rgba(9, 87, 105, 0.7);
+    --warning-transparent: rgba(170, 28, 10, 0.7);
+    --success-transparent: rgba(203, 244, 140, 0.7);
+}
+
+/*Backgrounds*/
+.bgc-primary {
+    background-color: var(--primary);
+}
+
+.bgc-secondary {
+    background-color: var(--secondary);
+}
+
+.bgc-warning {
+    background-color: var(--warning);
+}
+
+.bgc-success {
+    background-color: var(--success);
+}
+
+/*Fonts*/
+//Colors
+.fnt-white, .fnt-white-hvr:hover, .fnt-white-fcs:focus {
+    color: var(--white);
+}
+
+.fnt-black, .fnt-black-hvr:hover, .fnt-black-fcs:focus {
+    color: var(--black);
+}
+
+.fnt-grey, .fnt-grey-hvr:hover, .fnt-grey-fcs:focus {
+    color: var(--grey);
+}
+
+.fnt-primary, .fnt-primary-hvr:hover, .fnt-primary-fcs:focus {
+    color: var(--primary);
+}
+
+.fnt-secondary, .fnt-secondary-hvr:hover, .fnt-secondary-fcs:focus {
+    color: var(--secondary);
+}
+
+.fnt-warning, .fnt-warning-hvr:hover, .fnt-warning-fcs:focus {
+    color: var(--warning);
+}
+
+.fnt-success, .fnt-success-hvr:hover, .fnt-success-fcs:focus{
+    color: var(--success);
+}
+
+/*Anchors*/
+a.btn:focus {
+    box-shadow: none;
+}
